@@ -25,17 +25,27 @@ Running the Application
 Option 1: Running the Script Directly
 
 Navigate to the project directory: 
-```cd Exam-Conductor-and-Preparator```
+```bash
+cd Exam-Conductor-and-Preparator
+```
 Ensure all dependencies are installed (check requirements.txt if present).
 Run the main entry py file
-```python -m ExamBuilder.py```
+```bash
+python -m ExamBuilder.py
+```
 Option 2: Creating an Executable (Optional)
 **Install PyInstaller:**
-```pip install pyinstaller```
+```bash
+pip install pyinstaller
+```
 **Navigate to the project directory:**
-```cd Exam-Conductor-and-Preparator```
+```bash
+cd Exam-Conductor-and-Preparator
+```
 Build the executable: 
-```pyinstaller ExamBuilder.spec``` 
+```bash
+pyinstaller ExamBuilder.spec
+``` 
 This will create a dist folder containing the executable file in dist folder
 
 ## Configuring MySQL
